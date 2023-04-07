@@ -48,6 +48,7 @@ io.on('connection',socket =>{
 })
 
 // server running 
+// local host 3000
 server.listen(3000 || process.env.PORT ,function(){
    console.log("server running...")
 });
